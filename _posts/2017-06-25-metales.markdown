@@ -1,0 +1,11 @@
+---
+layout: service
+title:  "Metales"
+date:   2017-06-25 11:07:09 -0600
+categories: jekyll update
+permalink: //servicios/metales/
+---
+![](/assets/images/services/ser_metales2.jpg){: width="100%" height="auto"}
+
+Desarrollo, diseño y fabricación de estructuras metálicas para Exhibición, Punto de Venta, Activaciones de producto y Vallas Publicitarias.
+   

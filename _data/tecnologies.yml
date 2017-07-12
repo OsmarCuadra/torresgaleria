@@ -1,0 +1,44 @@
+- name: Impresión a Gran Formato
+  image: '/assets/images/tecnologies/tec_impresion.jpg'
+  col: 'col-sm-6'
+  details:
+   - top: Impresión Directa 
+     desc:
+        - sub: Impresora Fenix KJ-2512UV
+   - top: Impresión en Alta Resolución
+     desc:
+        - sub: Impresora Mutoh ValueJet 1614
+   - top: Impresión 3.20metros
+     desc:
+        - sub: IFenix FX 328K
+
+- name: Corte Electrónico
+  image: '/assets/images/tecnologies/tec_corte.jpg'
+  col: 'col-sm-6'
+  details:
+   - top: Samurai Vcut
+   - top: Corte Preciso de contornos de materiales rígidos 
+     desc:
+        - sub: PVC
+        - sub: Coroplast
+        - sub: Poliestireno
+        - sub: Cartón Corrugado
+        - sub: FalconBoard
+        - sub: Converd
+        - sub: Cartofoam
+
+- name: Plotter de Corte
+  image: '/assets/images/tecnologies/tec_plotter.jpg'
+  col: 'col-sm-12'
+  details:
+   - top: GRAPHTEC FC8600 
+   - top: Equipo de Corte Electrónico con el rendimiento de procesamiento mas rápido del mundo. Capacidad de corte
+     desc:
+        - sub: Vinilos de Color Sólido
+        - sub: Sensor Óptico (Vinilos Impresos)
+        - sub: Vinilos Laminados 
+        - sub: Reflectivos Ingeniería y Diamente
+
+
+
+

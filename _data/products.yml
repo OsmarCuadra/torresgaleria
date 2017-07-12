@@ -1,0 +1,35 @@
+- name: Activaciones BTL
+  image_front: /assets/images/products/prod1.jpg
+  image_back: /assets/images/products/prod1-2.jpg
+  description: Some description
+  href: 
+
+- name: Diseño de stand
+  image_front: /assets/images/products/prod2.jpg
+  image_back: /assets/images/products/prod2-2.jpg
+  description: Some description
+  href: 
+  
+- name: Impresiones
+  image_front: /assets/images/products/prod3.jpg
+  image_back: /assets/images/products/prod3-2.jpg
+  description: Some description
+  href: 
+
+- name: Rotulación vehicular
+  image_front: /assets/images/products/prod4.jpg
+  image_back: /assets/images/products/prod4-2.jpg
+  description: Some description
+  href: 
+
+- name: Branding
+  image_front: /assets/images/products/prod5.jpg
+  image_back: /assets/images/products/prod5-2.jpg
+  description: Some description
+  href: 
+
+- name: Eventos brand
+  image_front: /assets/images/products/prod6.jpg
+  image_back: /assets/images/products/prod6-2.jpg
+  description: Some description
+  href: 

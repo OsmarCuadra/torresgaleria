@@ -1,0 +1,51 @@
+---
+title: Contáctenos
+layout: page
+permalink: "/contactenos/"
+---
+
+
+<!--  GOOGLE MAP -->
+<div class="google-maps">
+  <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.900640601386!2d-86.25561878466962!3d12.118950436290188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f73fe1ef04e73ef%3A0xe5d1a7a6b22b7a7f!2sDeconova!5e0!3m2!1sen!2sni!4v1498426141149"
+      width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<div class="rte">
+  Empresa de servicios publicitarios integrales, Diseño Grafico, Impresión digital, Organización de eventos, Stands, Material POP, Rotulación y Papeleria.
+</div>
+
+<form action="https://formspree.io/{{ site.email }}" method="POST" id="contact_form" class="contact-form" accept-charset="UTF-8">
+  <input type="hidden" value="contact" name="form_type"/>
+  <input type="hidden" name="utf8" value="✓"/>
+
+  <div id="contactFormWrapper">
+    <div class="row">
+      <div class="col-sm-4 form-group">
+        <label for="contactFormName">Nombre:</label>
+        <input type="text" class="form-control" id="contactFormName" name="name" placeholder=""/>
+      </div>
+      <div class="col-sm-4 form-group">
+        <label for="contactFormEmail">Correo electrónico:</label>
+        <input type="email" class="form-control" id="contactFormEmail" name="email" placeholder=""/>
+      </div>
+      <div class="col-sm-4 form-group">
+        <label for="contactFormTelephone">Número de ceular:</label>
+        <input type="tel" class="form-control" id="contactFormTelephone" name="phone" placeholder=""/>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 form-group">
+        <label for="contactFormMessage">Mensaje:</label>
+        <textarea class="form-control" rows="5" cols="75" id="contactFormMessage" name="message"
+                  placeholder=""></textarea>
+      </div>
+    </div>
+
+    <div class="btn-toolbar form-group">
+      <input type="submit" id="contactFormSubmit" value="Enviar" class="btn btn-alt"/>
+    </div>
+  </div><!-- contactFormWrapper -->
+</form>

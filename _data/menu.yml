@@ -1,0 +1,20 @@
+-
+  name: Inicio
+  href: '/'
+  image: 'http://via.placeholder.com/350x150'
+-
+  name: Tecnología
+  href: '/tecnologia/'
+  image: 'http://via.placeholder.com/350x150'
+-
+  name: Servicios
+  href: '/servicios/'
+  image: 'http://via.placeholder.com/350x150'
+-
+  name: Galería
+  href: '/galeria/'
+  image: 'http://via.placeholder.com/350x150'
+-
+  name: Contáctenos
+  href: '/contactenos/'
+  image: 'http://via.placeholder.com/350x150'
