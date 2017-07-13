@@ -1,10 +1,8 @@
 # Torres Galería
 
-**Dominio**:
+**Dominio**
 
-http://torresgaleria.com
-
-**Plantilla**:
+**Plantilla**
 
 http://ld-prestashop.template-help.com/prestashop_62011/
 
