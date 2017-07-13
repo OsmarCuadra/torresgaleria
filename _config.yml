@@ -19,11 +19,11 @@ logo: '/assets/images/bright_nicaragua.svg'
 number: '505 2225 3021'
 cellphone: 505 8444 0024
 address: 'Del club Terraza 2 km al sur, plaza san Sebastian Módulo A-6'
-schedules: Lunes a viernes de 8:00am a 6:00pm, Sábado de 8:00am a 1:00pm
+schedules: 'Lunes a viernes de 8:30am a 6:00pm, Sábado 08:30am - 2:00pm'
 motto: Empresa de servicios publicitarios integrales
-caption: Diseño Grafico, Impresión digital, Organización de eventos, Stands, Material POP, Rotulación y Papeleria.
+caption: Art & Gift Shop
 description: >
- Empresa de servicios publicitarios integrales, Diseño Grafico, Impresión digital, Organización de eventos, Stands, Material POP, Rotulación y Papeleria.
+ Galería de arte
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://osmarcuadra.github.io/torresgaleria/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

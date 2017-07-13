@@ -10,7 +10,9 @@ permalink: "/contacto/"
 
 
       <h1 class="page-heading bottom-indent">
-        Customer service - Contact us</h1>
+       {{ page.title }}</h1>
+
+        {% include map.html %}
 
 
       <form action="/prestashop_62011/index.php?controller=contact" method="post" class="contact-form-box" enctype="multipart/form-data">
