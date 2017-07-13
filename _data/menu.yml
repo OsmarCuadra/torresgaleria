@@ -1,20 +1,18 @@
 -
   name: Inicio
   href: '/'
-  image: 'http://via.placeholder.com/350x150'
 -
-  name: Tecnología
-  href: '/tecnologia/'
-  image: 'http://via.placeholder.com/350x150'
+  name: Categorías
+  href: '/categoriass/'
 -
-  name: Servicios
-  href: '/servicios/'
-  image: 'http://via.placeholder.com/350x150'
+  name: Disponibilidad
+  href: '/disponibilidad/'
 -
-  name: Galería
-  href: '/galeria/'
-  image: 'http://via.placeholder.com/350x150'
+  name: Artistas
+  href: '/artistas/'
+-
+  name: Especiales
+  href: '/especiales/'
 -
   name: Contáctenos
   href: '/contactenos/'
-  image: 'http://via.placeholder.com/350x150'

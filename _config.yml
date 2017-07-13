@@ -25,8 +25,7 @@ caption: Diseño Grafico, Impresión digital, Organización de eventos, Stands, 
 description: >
  Empresa de servicios publicitarios integrales, Diseño Grafico, Impresión digital, Organización de eventos, Stands, Material POP, Rotulación y Papeleria.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-facebook: 'https://www.facebook.com/torresgaleria'
+url: "https://osmarcuadra.github.io/torresgaleria/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 

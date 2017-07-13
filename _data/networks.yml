@@ -1,9 +1,20 @@
 -
   name: Facebook
-  href: 'https://www.facebook.com/brightnicaragua'
+  href: 'https://www.facebook.com/torresgaleria'
+  class: 'fa fa-facebook'
 -
   name: Instagram
-  href: 'https://www.instagram.com/bright_nicaragua/'
+  href: ''
+  class: 'fa fa-instagram'
 -
   name: Twitter
-  href: 'https://twitter.com/brightnicaragua'
+  href: ''
+  class: 'fa fa-twitter'
+-
+  name: Linkedin
+  href: ''
+  class: 'fa fa-linkedin'
+- 
+  name: Pinterest
+  href: ''
+  class: 'fa fa-pinterest'
