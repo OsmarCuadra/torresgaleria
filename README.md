@@ -1,16 +1,16 @@
-# Bright Nicaragua
+# Torres Galería
 
 **Dominio**:
 
-http://brightnicaragua.com
+http://torresgaleria.com
 
 **Plantilla**:
 
-https://theme276-print.myshopify.com/
+http://ld-prestashop.template-help.com/prestashop_62011/
 
 **Fecha de inicio:**
 
-23 Junio 2017
+11 Junio 2017
 
 **Fecha de lanzamiento:**
 
