@@ -14,18 +14,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Torres Galería
-email: email@galeria.com
+email: ventas.torresgaleria@gmail.com
 logo: '/assets/images/bright_nicaragua.svg'
-number: '505 2278-1520 / 505 2277-5419'
-cellphone: 505 8883-8026
-address: 'De la vicky 1c al sur, 1c arriba. Rotonda Madrid Casa # 229'
+number: '505 2225 3021'
+cellphone: 505 8444 0024
+address: 'Del club Terraza 2 km al sur, plaza san Sebastian Módulo A-6'
 schedules: Lunes a viernes de 8:00am a 6:00pm, Sábado de 8:00am a 1:00pm
 motto: Empresa de servicios publicitarios integrales
 caption: Diseño Grafico, Impresión digital, Organización de eventos, Stands, Material POP, Rotulación y Papeleria.
 description: >
  Empresa de servicios publicitarios integrales, Diseño Grafico, Impresión digital, Organización de eventos, Stands, Material POP, Rotulación y Papeleria.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://chocoyolabs-pymes.github.io/brightnicaragua.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+facebook: 'https://www.facebook.com/torresgaleria'
 twitter_username: jekyllrb
 github_username:  jekyll
 
