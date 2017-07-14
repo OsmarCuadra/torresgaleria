@@ -3,6 +3,7 @@ title: Acerca de nosotros
 layout: page 
 permalink: "/nosotros/" 
 ---
+
 <div id="cms" class="cms cms-4 cms-about-us hide-left-column hide-right-column lang_en  one-column">
   <div class="large-left col-sm-12">
     <div class="row">
@@ -52,28 +53,18 @@ permalink: "/nosotros/"
               </li>
             </ul>
           </div>
-          <h1 style="text-align:center;">Our team</h1>
+          <h1 style="text-align:center;">Nuestro equipo</h1>
           <div class="border_bottom2">
             <ul class="row list-4">
-              <li class="col-xs-3"><img src="img/cms/our_team_1.jpg" alt="" height="269" width="270">
-                <h3>ROBERT JOHNSON</h3>
-                <p>Senior salesman with 15 years of experience. He knows everything about the products he offers.</p>
+              {% for clerk in site.data.staff %}
+              <li class="col-xs-3"><img src="{{ clerk.image }}" alt="{{ clerk.name }}" height="269" width="270">
+                <h3>{{ clerk.name }}</h3>
+                <p>{{ clerk.title }}</p>
               </li>
-              <li class="col-xs-3"><img src="img/cms/our_team_2.jpg" alt="" height="269" width="270">
-                <h3>JESSICA PRISTON</h3>
-                <p>Mega positive shop assistant always ready to help you make the right choice and charm you with a smile.</p>
-              </li>
-              <li class="col-xs-3"><img src="img/cms/our_team_3.jpg" alt="" height="269" width="270">
-                <h3>SAM KROMSTAIN</h3>
-                <p>Wholesale manager. Contact him if you want to buy a batch of the products offered at our store.</p>
-              </li>
-              <li class="col-xs-3"><img src="img/cms/our_team_4.jpg" alt="" height="269" width="270">
-                <h3>EDNA BARTON</h3>
-                <p>Quality control manager. Her mission is to check the products we ship and settle quality issues if any.</p>
-              </li>
+              {% endfor %}
             </ul>
           </div>
-          <h1 style="text-align:center;">Testimonials</h1>
+          <h1 style="text-align:center;">Testimonios</h1>
           <div class="bx-wrapper" style="max-width: 2560px; margin: 0px auto;">
             <div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 166px;">
               <ul id="testimonials" style="width: 615%; position: relative; left: -1251px;">

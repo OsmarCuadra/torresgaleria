@@ -1,0 +1,5 @@
+- name: 'Producto 1'
+  image: 'http://via.placeholder.com/500x500'
+  href: ''
+  desc: 'Alguna descripción'
+  tag: promo
