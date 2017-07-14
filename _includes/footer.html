@@ -7,7 +7,7 @@
                 <div id="tmhtmlcontent_footer">
                   <ul class="tmhtmlcontent-footer">
                     <li class="tmhtmlcontent-item-1 logo">
-                      <a href="index-2.html" class="item-link" title="footer logo">
+                      <a href="{{ site.url }}" class="item-link" title="footer logo">
                         <img src="http://via.placeholder.com/280x100" class="item-img img-responsive" title="footer logo" alt="footer logo"
                                  width="280" height="38"/>
                       </a>
@@ -26,7 +26,7 @@
                       <ul class="toggle-footer">
                         {% for item in site.data.menu %}
                         <li class="item">
-                          <a href="{{ item.href }}" title="{{ item.name }}">
+                          <a href="{{ site.url}}{{ item.href }}" title="{{ item.name }}">
                             {{ item.name }}
                           </a>
                         </li>
