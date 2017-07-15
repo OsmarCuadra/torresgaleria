@@ -3,7 +3,7 @@
   href: '/'
 -
   name: Técnicas
-  href: '/tecnicas'
+  href: '/tecnicas/'
 -
   name: Arte y estilo
   href: '/arte_y_estilo'
@@ -12,7 +12,7 @@
   href: '/disponibilidad'
 -
   name: Artistas
-  href: '/artistas'
+  href: '/artistas/'
 -
   name: Especiales
   href: '/especiales'
@@ -21,4 +21,4 @@
   href: '/nosotros/'
 -
   name: Contáctenos
-  href: '/contactenos/'
+  href: '/contacto/'

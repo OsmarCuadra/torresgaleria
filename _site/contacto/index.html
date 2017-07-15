@@ -10,11 +10,6 @@
   <meta name="robots" content="index,follow" />
   <meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.0, initial-scale=1.0" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <script type="text/javascript">
-    //<![CDATA[
-    try { if (!window.CloudFlare) { var CloudFlare = [{ verbose: 0, p: 0, byc: 0, owlid: "cf", bag2: 1, mirage2: 0, oracle: 0, paths: { cloudflare: "/cdn-cgi/nexp/dok3v=1613a3a185/" }, atok: "442c6bf28675ab214669e502ea586624", petok: "6655dccc0d7207d252167b3abe60476ecb08f2e2-1499742760-1800", zone: "template-help.com", rocket: "0", apps: { "abetterbrowser": { "ie": "7" } } }]; !function (a, b) { a = document.createElement("script"), b = document.getElementsByTagName("script")[0], a.async = !0, a.src = "../../ajax.cloudflare.com/cdn-cgi/nexp/dok3v%3d85b614c0f6/cloudflare.min.js", b.parentNode.insertBefore(a, b) }() } } catch (e) { };
-   //]]>
-  </script>
   <link rel="icon" type="image/vnd.microsoft.icon" href="/assets/img/favicon3292.ico?1480427070" />
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon3292.ico?1480427070" />
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Hind:400,600,700%7COpen+Sans:400,600,700%7CRusso+One&amp;subset=cyrillic"
@@ -52,7 +47,6 @@
   />
   <link rel="stylesheet" href="/assets/themes/css/modules/tmnewsletter/views/css/tmnewsletter.css" type="text/css" media="all"
   />
-  <link rel="stylesheet" href="/assets/modules/tmolarkchat/views/css/tmolarkchat.css" type="text/css" media="all" />
   <link rel="stylesheet" href="/assets/modules/tmproductvideos/views/css/video/video-js.css" type="text/css" media="all" />
   <link rel="stylesheet" href="/assets/modules/tmproductvideos/views/css/tmproductvideos.css" type="text/css" media="all" />
   <link rel="stylesheet" href="/assets/themes/css/modules/tmmegalayout/views/css/tmmegalayout.css" type="text/css" media="all"
@@ -92,7 +86,6 @@
     var ajax_allowed = true;
     var ajaxsearch = true;
     var baseDir = 'index.html';
-    var baseUri = 'index-2.html';
     var blocking_popup = '1';
     var comparator_max_item = 2;
     var comparedProductsIds = [];
@@ -147,15 +140,12 @@
     var quickView = true;
     var removingLinkText = 'supprimer cet article du panier';
     var roundMode = 2;
-    var search_url_local = 'index65a6.html?fc=module&amp;module=tmsearch&amp;controller=ajaxsearch&amp;id_lang=5';
-    var search_url_local_instant = 'index3984.html?fc=module&amp;module=tmsearch&amp;controller=instantsearch&amp;id_lang=5';
     var static_token = '03464bb3a178426f822f83f8f93baeef';
     var tm_directions = 'Obtenir des directions';
     var tmdefaultLat = '25.765005';
     var tmdefaultLong = '-80.226439';
     var tmmarker_path = 'modules/tmgooglemap/img/markers/index.html';
     var tmnewsletter_status = '2';
-    var tmolarkchat_status = '2';
     var tmsearch_highlight = '1';
     var tmsearch_itemstoshow = '3';
     var tmsearch_minlength = '3';
@@ -166,13 +156,6 @@
     var tmsearch_showallresults = null;
     var toBeDetermined = 'À définir';
     var token = 'aac611767b63c749b65563a08f6dcb0b';
-    var translation_1 = 'Lun';
-    var translation_2 = 'Mar';
-    var translation_3 = 'Mer';
-    var translation_4 = 'Jeu';
-    var translation_5 = 'Ven';
-    var translation_6 = 'Sam';
-    var translation_7 = 'Dim';
     var use_tm_ajax_search = true;
     var use_tm_instant_search = true;
     var user_newsletter_status = 0;
@@ -231,7 +214,6 @@
   <script src="/assets/js/jquery/ui/jquery.ui.slider.min.js"></script>
   <script src="/assets/js/jquery/plugins/timepicker/jquery-ui-timepicker-addon.js"></script>
   <script src="/assets/modules/tmoneclickorder/views/js/tmoneclickorder.js"></script>
-  <script src="/assets/modules/themeconfiglink/views/js/themeconfiglink.js"></script>
   <script src="/assets/themes/js/index.js"></script>
 
 
@@ -292,7 +274,7 @@
           <div class="it_YWQHLHHLMYBX    col-lg-12 container text-center">
             <div id="header_logo">
               <a href="index.html" title="ArtWorker">
-               <img class="logo img-responsive" src="http://via.placeholder.com/280x100" alt="ArtWorker" width="280" height="47"/>
+               <img class="logo img-responsive" src="/assets/img/logo.jpg" alt="ArtWorker" width="280" height="47"/>
               </a>
             </div>
           </div>
@@ -306,7 +288,7 @@
                   <div class="menu-title tmmegamenu_item">Menu</div>
                   <ul class="menu clearfix top-level-menu tmmegamenu_item">
                       <li class=" top-level-menu-li tmmegamenu_item it_64707038"><a class="it_64707038 top-level-menu-li-a tmmegamenu_item" href="/">Inicio</a></li>
-                      <li class=" simple top-level-menu-li tmmegamenu_item it_16592859"><a class="it_16592859 top-level-menu-li-a tmmegamenu_item" href="/">Técnicas</a>
+                      <li class=" simple top-level-menu-li tmmegamenu_item it_16592859"><a class="it_16592859 top-level-menu-li-a tmmegamenu_item" href="/tecnicas">Técnicas</a>
                       <ul class="is-simplemenu tmmegamenu_item first-level-menu it_16592859">
                         
                         <li class="category"><a href="/acrilico" title="Acrílico">Acrílico</a></li>
@@ -315,7 +297,7 @@
                         
                       </ul>
                     </li>
-                     <li class=" simple top-level-menu-li tmmegamenu_item it_16592859"><a class="it_16592859 top-level-menu-li-a tmmegamenu_item" href="/">Arte y estilo</a>
+                     <li class=" simple top-level-menu-li tmmegamenu_item it_16592859"><a class="it_16592859 top-level-menu-li-a tmmegamenu_item" href="/arte_y_estilo/">Arte y estilo</a>
                       <ul class="is-simplemenu tmmegamenu_item first-level-menu it_16592859">
                         
                         <li class="category"><a href="/" title="Abstractos">Abstractos</a></li>
@@ -334,7 +316,7 @@
                         
                       </ul>
                     </li>
-                    <li class=" simple top-level-menu-li tmmegamenu_item it_91203835"><a class="it_91203835 top-level-menu-li-a tmmegamenu_item" href="/">Artistas</a>
+                    <li class=" simple top-level-menu-li tmmegamenu_item it_91203835"><a class="it_91203835 top-level-menu-li-a tmmegamenu_item" href="/artistas/">Artistas</a>
                       <ul class="is-simplemenu tmmegamenu_item first-level-menu it_91203835">
                          
                           <li class="manufacturer">
@@ -517,8 +499,8 @@
                 <div id="tmhtmlcontent_footer">
                   <ul class="tmhtmlcontent-footer">
                     <li class="tmhtmlcontent-item-1 logo">
-                      <a href="index-2.html" class="item-link" title="footer logo">
-                        <img src="http://via.placeholder.com/280x100" class="item-img img-responsive" title="footer logo" alt="footer logo"
+                      <a href="" class="item-link" title="footer logo">
+                        <img src="/assets/img/logo.jpg" class="item-img img-responsive" title="footer logo" alt="footer logo"
                                  width="280" height="38"/>
                       </a>
                     </li>
@@ -542,7 +524,7 @@
                         </li>
                          
                         <li class="item">
-                          <a href="/tecnicas" title="Técnicas">
+                          <a href="/tecnicas/" title="Técnicas">
                             Técnicas
                           </a>
                         </li>
@@ -560,7 +542,7 @@
                         </li>
                          
                         <li class="item">
-                          <a href="/artistas" title="Artistas">
+                          <a href="/artistas/" title="Artistas">
                             Artistas
                           </a>
                         </li>
@@ -578,7 +560,7 @@
                         </li>
                          
                         <li class="item">
-                          <a href="/contactenos/" title="Contáctenos">
+                          <a href="/contacto/" title="Contáctenos">
                             Contáctenos
                           </a>
                         </li>
@@ -662,53 +644,7 @@
             <div class="module "></div>
             <div class="module "></div>
             <div class="module ">
-              <!-- begin olark code -->
-              <script data-cfasync="false" type='text/javascript'>
-                /*<![CDATA[*/window.olark || (function (c) {
-                                      var f = window, d = document, l = f.location.protocol == "https:" ? "https:" : "http:", z = c.name, r = "load"; var nt = function () {
-                                        f[z] = function () {
-                                          (a.s = a.s || []).push(arguments)
-                                        }; var a = f[z]._ = {
-                                        }, q = c.methods.length; while (q--) {
-                                          (function (n) {
-                                            f[z][n] = function () {
-                                              f[z]("call", n, arguments)
-                                            }
-                                          })(c.methods[q])
-                                        } a.l = c.loader; a.i = nt; a.p = {
-                                          0: +new Date
-                                        }; a.P = function (u) {
-                                          a.p[u] = new Date - a.p[0]
-                                        }; function s() {
-                                          a.P(r); f[z](r)
-                                        } f.addEventListener ? f.addEventListener(r, s, false) : f.attachEvent("on" + r, s); var ld = function () {
-                                          function p(hd) {
-                                            hd = "head"; return ["<", hd, "></", hd, "><", i, ' onl' + 'oad="var d=', g, ";d.getElementsByTagName('head')[0].", j, "(d.", h, "('script')).", k, "='", l, "//", a.l, "'", '"', "></", i, ">"].join("")
-                                          } var i = "body", m = d[i]; if (!m) {
-                                            return setTimeout(ld, 100)
-                                          } a.P(1); var j = "appendChild", h = "createElement", k = "src", n = d[h]("div"), v = n[j](d[h](z)), b = d[h]("iframe"), g = "document", e = "domain", o; n.style.display = "none"; m.insertBefore(n, m.firstChild).id = z; b.frameBorder = "0"; b.id = z + "-loader"; if (/MSIE[ ]+6/.test(navigator.userAgent)) {
-                                            b.src = "javascript:false"
-                                          } b.allowTransparency = "true"; v[j](b); try {
-                                            b.contentWindow[g].open()
-                                          } catch (w) {
-                                            c[e] = d[e]; o = "javascript:var d=" + g + ".open();d.domain='" + d.domain + "';"; b[k] = o + "void(0);"
-                                          } try {
-                                            var t = b.contentWindow[g]; t.write(p()); t.close()
-                                          } catch (x) {
-                                            b[k] = o + 'd.write("' + p().replace(/"/g, String.fromCharCode(92) + '"') + '");d.close();'
-                                          } a.P(2)
-                                        }; ld()
-                                      }; nt()
-                                    })({
-                                      loader: "static.olark.com/jsclient/loader0.js", name: "olark", methods: ["configure", "extend", "declare", "identify"]
-                                    });
 
-                                    /* custom configuration goes here (www.olark.com/documentation) */
-
-                                    olark.identify('7830-582-10-3714');
-/*]]>*/
-              </script>
-              <!-- end olark code -->
             </div>
           </div>
         </div>
